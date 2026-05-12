@@ -54,7 +54,7 @@ while True:
 
 ```
 ## OUPUT -ARP
-<img width="1919" height="601" alt="Screenshot 2026-05-12 111045" src="https://github.com/user-attachments/assets/d017873b-8364-4cf3-9df1-587d386aa404" />
+<img width="1919" height="600" alt="Screenshot 2026-05-12 142507" src="https://github.com/user-attachments/assets/2ccc204f-9704-4994-a211-576e66b65f07" />
 
 
 ## PROGRAM -RARP
@@ -63,7 +63,7 @@ while True:
 ```
 import socket
 s=socket.socket()
-s.bind(('localhost',8000))
+s.bind(('localhost',8001))
 s.listen(5)
 c,addr=s.accept()
 address={"6A:08:AA:C2":"165.165.80.80","8A:BC:E3:FA":"165.165.79.1"};
@@ -78,7 +78,7 @@ while True:
 ```
 import socket
 s=socket.socket()
-s.connect(('localhost',8000))
+s.connect(('localhost',8001))
 while True:
     ip=input("Enter MAC Address : ")
     s.send(ip.encode())
@@ -86,7 +86,7 @@ while True:
 
 ```
 ## OUTPUT -RARP
-<img width="1919" height="458" alt="image" src="https://github.com/user-attachments/assets/5ae17cba-75f2-4760-81e6-b10519cc4edd" />
+<img width="1919" height="439" alt="image" src="https://github.com/user-attachments/assets/1c13bb3b-aaa1-4732-a7d9-ae6a81fe0b4a" />
 
 ## RESULT
 Thus, the python program for simulating ARP protocols using TCP was successfully 
