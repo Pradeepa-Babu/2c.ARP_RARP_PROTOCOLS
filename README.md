@@ -86,7 +86,7 @@ while True:
 
 ```
 ## OUTPUT -RARP
-<img width="1919" height="562" alt="image" src="https://github.com/user-attachments/assets/94f43ba6-2bcc-4dd9-a979-fa07b6bed3dd" />
+<img width="1919" height="458" alt="image" src="https://github.com/user-attachments/assets/5ae17cba-75f2-4760-81e6-b10519cc4edd" />
 
 ## RESULT
 Thus, the python program for simulating ARP protocols using TCP was successfully 
